@@ -1,0 +1,1 @@
+<p>Testing component commit id</p>
