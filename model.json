@@ -1,1 +1,68 @@
-{"version": "1.0", "name": "WRISTModel-TestAgain", "description": "<p>Testing component commit id</p>", "component_sets": [{"name": "FrankiePH/WRISTComp-Test", "id": "15aa3a1203ac7c5666038ef5738d6b297939f74d"}, {"name": "FrankiePH/WRISTComp-withCompTest", "id": "170e689921d684268ae6a717097b1adaecf36dd4"}], "concept": [{"name": "Item", "mro": "M", "description": "", "valueSets": "", "implamentationGuidance": "", "informationType": "Record", "type": "item", "minimumMultiplicity": "0", "maximumMultiplicity": "1"}]}
+{
+  "version": "1.0",
+  "name": "WRISTModel-TestAgain",
+  "description": "<p>Testing component commit id</p>",
+  "component_sets": [
+    {
+      "name": "FrankiePH/WRISTComp-Test",
+      "id": "15aa3a1203ac7c5666038ef5738d6b297939f74d"
+    },
+    {
+      "name": "FrankiePH/WRISTComp-withCompTest",
+      "id": "170e689921d684268ae6a717097b1adaecf36dd4"
+    }
+  ],
+  "concept": [
+    {
+      "name": "Item",
+      "mro": "M",
+      "description": "",
+      "valueSets": "",
+      "implamentationGuidance": "",
+      "informationType": "Record",
+      "type": "item",
+      "minimumMultiplicity": "0",
+      "maximumMultiplicity": "1"
+    },
+    {
+      "concept": [
+        {
+          "concept": [],
+          "description": "",
+          "implamentationGuidance": "",
+          "informationType": "Record",
+          "maximumMultiplicity": "1",
+          "minimumMultiplicity": "0",
+          "mro": "M",
+          "name": "Child row A",
+          "type": "item",
+          "valueSets": "",
+          "derivedFrom": "wristcomp_test.child_row_a@v1"
+        },
+        {
+          "concept": [],
+          "description": "",
+          "implamentationGuidance": "",
+          "informationType": "Record",
+          "maximumMultiplicity": "1",
+          "minimumMultiplicity": "0",
+          "mro": "M",
+          "name": "Child row B",
+          "type": "item",
+          "valueSets": "",
+          "derivedFrom": "wristcomp_test.child_row_b@v1"
+        }
+      ],
+      "description": "This is a test component with two children",
+      "implamentationGuidance": "",
+      "informationType": "Record",
+      "maximumMultiplicity": "1",
+      "minimumMultiplicity": "0",
+      "mro": "M",
+      "name": "Test Component",
+      "type": "item",
+      "valueSets": "",
+      "derivedFrom": "wristcomp_test@v1"
+    }
+  ]
+}
