@@ -65,6 +65,18 @@
       "derivedFrom": "wristcomp_test@v1"
     },
     {
+      "description": "",
+      "implamentationGuidance": "",
+      "informationType": "Record",
+      "maximumMultiplicity": "1",
+      "minimumMultiplicity": "0",
+      "mro": "M",
+      "name": "New Item",
+      "type": "item",
+      "valueSets": "",
+      "derivedFrom": "wristcomp_withcomptest@170e689921d684268ae6a717097b1adaecf36dd4"
+    },
+    {
       "concept": [
         {
           "concept": [],
