@@ -103,6 +103,46 @@
           "name": "Child row A",
           "type": "item",
           "valueSets": "",
+          "derivedFrom": "wristcomp_test.child_row_a@15aa3a1203ac7c5666038ef5738d6b297939f74d"
+        },
+        {
+          "concept": [],
+          "description": "",
+          "implamentationGuidance": "",
+          "informationType": "Record",
+          "maximumMultiplicity": "1",
+          "minimumMultiplicity": "0",
+          "mro": "M",
+          "name": "Child row B",
+          "type": "item",
+          "valueSets": "",
+          "derivedFrom": "wristcomp_test.child_row_b@15aa3a1203ac7c5666038ef5738d6b297939f74d"
+        }
+      ],
+      "description": "This is a test component with two children",
+      "implamentationGuidance": "",
+      "informationType": "Record",
+      "maximumMultiplicity": "1",
+      "minimumMultiplicity": "0",
+      "mro": "M",
+      "name": "Test Component",
+      "type": "item",
+      "valueSets": "",
+      "derivedFrom": "wristcomp_test@15aa3a1203ac7c5666038ef5738d6b297939f74d"
+    },
+    {
+      "concept": [
+        {
+          "concept": [],
+          "description": "",
+          "implamentationGuidance": "",
+          "informationType": "Record",
+          "maximumMultiplicity": "1",
+          "minimumMultiplicity": "0",
+          "mro": "M",
+          "name": "Child row A",
+          "type": "item",
+          "valueSets": "",
           "derivedFrom": "wristcomp_test_15aa3a1203ac7c5666038ef5738d6b297939f74d.child_row_a@v1"
         },
         {
